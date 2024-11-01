@@ -1,0 +1,48 @@
+fieldset label.blocktext
+{
+	display: block;
+	width: 175px;
+	float: left;
+	margin-left: 20px;	
+}
+
+fieldset input.textfield, fieldset select.textfield
+{
+	width: 350px;
+}
+.radio
+{
+	display: inline;
+	clear: both;
+}
+.pick
+{
+	display: inline;
+	width: 16px;
+	margin-right: 5px;
+	height: 16px;
+	border: 1px solid #444444;
+}
+#colorpicker
+{
+	border-collapse: collapse;
+	position: absolute;
+	left: 300px;
+	top: 600px;
+	background-color: #FFF;
+	border-top: 1px solid #EEE;
+	border-left: 1px solid #EEE;
+	border-right:1px solid #999;
+	border-bottom:1px solid #999;
+	display: none;
+	padding:5px;
+}
+#colorpicker a
+{
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin-bottom: 1px;
+	margin-right: 1px;
+	font-size:10px;
+}
